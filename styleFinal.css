@@ -1,0 +1,275 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    background-color: #fefaf6;
+}
+
+.container-fluid {
+    padding: 3% 0;
+}
+
+.newsec {
+    padding: 7% 7%;
+    width: 100%;
+}
+
+.scroll {
+    color: #263759
+}
+
+h1 {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 6rem;
+    line-height: 1.5;
+    padding: 5rem;
+    position: relative;
+    color: #263759;
+}
+
+h2 {
+    color: #263759;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 4rem;
+}
+
+.h2-alt {
+    color: #fefaf6;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: #263759;
+    font-size: 2rem;
+}
+
+.h3-alt {
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: #fefaf6;
+    font-size: 2rem;
+    margin: 5% 0 3%;
+}
+
+p {
+    color: #4a5c80;
+    font-family: 'Assistant', sans-serif;
+    margin: 2rem 0;
+}
+
+.p-alt {
+    color: #e3e3e3;
+    font-family: 'Assistant', sans-serif;
+}
+
+/*nav bar*/
+.navbar {
+    padding: .5rem 4.5rem;
+    width: 100%;
+    box-shadow: 0 0 7px 0 #9b948f;
+    -webkit-box-shadow: 0 0 7px 0 #9b948f;
+    -moz-box-shadow: 0 0 7px 0 #9b948f;
+}
+
+.navbar-brand {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #263759 !important;
+    /*text-shadow: 1px 2px 0 #7A86B6, 2px 4px 0 #C8B6E2 ;*/
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2rem;
+    color: #4a5c80;
+}
+
+/*download buttons*/
+
+/*title image*/
+
+/*work*/
+#works {
+    position: relative;
+    background-color: #263759;
+}
+
+.work-column {
+    padding: 6% 3%;
+}
+
+.panel {
+    margin: 4% 0 0;
+}
+
+.dtls {
+    margin: 0
+}
+
+.dtls-btn {
+    background-color: transparent;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1rem;
+    color: #97a3bd;
+    border: none;
+    cursor: pointer; 
+}
+
+.work {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    /*filter: blur(1px);*/
+}
+
+.work-img {
+    width: 100%;
+    filter: brightness(60%) contrast(90%);
+    border-radius: 15px;
+    transition: transform .3s;
+}
+
+.work-img:hover {
+    filter: none;
+    transform: scale(1.02);
+}
+
+.ab {
+    font-size: 1.25rem;
+}
+
+/* about */
+
+div#progress>p {
+    margin: 1rem 0;
+}
+
+div#progress>div {
+    width: 100%;
+    height: 15px;
+    background-color: #e3e3e3;
+    border-radius: 15px;
+  }
+  
+div#progress>div>div {
+    width: 0%;
+    height: 15px;
+    background-color: #4a5c80;
+    border-radius: 15px;
+  }
+
+
+/*contact*/
+
+#contact {
+    background-color: #263759;
+    color: #fefaf6;
+}
+
+.form {
+    position: relative;
+    margin: 0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    background-color: #263759;
+    color: #fefaf6;
+    width: 100%; 
+    padding: 7px 12px;
+    border: none;
+    border-bottom: 1px solid #97a3bd;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin: 20px;
+    resize: vertical;
+    font-size: 1.3rem;
+  }
+
+input[type=text]:focus-visible, select:focus-visible, textarea:focus-visible {
+    outline: none;
+    border-color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #97a3bd;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.3rem;
+  }
+  
+ /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: transparent;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.3rem;
+    color: #fefaf6;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #fefaf6;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #fefaf6;
+    color: #263759
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    margin: 30px;
+}
+
+
+/*footer*/
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: #263759;
+}
+
+.social-icon:hover {
+    color: #4a5c80;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.foot {
+    margin-top: 10%;
+    text-align: center;
+}
+
+/*media query*/ 
+@media (max-width: 20px){
+
+    .home {
+        text-align: center;
+    }
+}
+
+input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+  }
